@@ -1,0 +1,21 @@
+body {
+	background-color: #FFD4C9;
+}
+h1 {
+	font: italic bold 60px serif; background-color: #C9FFD4; border: #EFC9FF dashed thick
+}
+h2 {
+	font: bold small-caps 28px serif; background-color: #C9FFD4;
+}
+h3 {
+	font: bold small-caps 20px serif; background-color: #C9FFD4;
+}
+p {
+	font: 16px/1.5 Calibri, sans-serif; background-color: #D4C9FF;
+}
+ul {
+	font: 16px Cambria, serif; background-color: #D4C9FF; color: #306C22;
+}
+img {
+	height: 480px;
+}
