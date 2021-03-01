@@ -5,55 +5,45 @@ h1,
 h2,
 h3,
 p,
-img,
 .home,
-ul {
+nav {
 	text-align: center;
 }
-h2,
-h3 {
-	border-bottom: violet dashed;
-	padding: 1em;
-}
 .main,
-ul {
+nav {
 	border-bottom: cyan dotted;
 	padding: .5em;
 	margin: .5em;
+	background-color: #D4C9FF;
+}
+nav {
+	font: 20px Cambria, serif;
 }
 h1 {
-	font: italic bold 60px serif;
+	font: italic bold 64px serif;
 	background-color: #C9FFD4;
 	border: violet dashed thick
 }
 h2 {
-	font: bold small-caps 28px serif;
+	font: bold small-caps 30px serif;
 	background-color: #C9FFD4;
-}
-h3 {
-	font: bold small-caps 20px serif;
-	background-color: #C9FFD4;
-}
-p {
-	font: 16px/1.5 Calibri, sans-serif;
-	background-color: #D4C9FF;
-}
-ul {
-	font: 16px Cambria, serif;
-	background-color: #D4C9FF;
-	color: #306C22;
+	border-bottom: violet dashed;
+	padding: 1em;
 }
 li {
 	display: inline;
-	padding: 1em;
+	padding: 1.5em;
 }
 img {
+	border: thick lightsteelblue inset;
 	height: 480px;
-}
+	}
 .main {
+	font: 18px/1.5 Calibri, sans-serif;
 	display: flex;
 	background-color: #D4C9FF;
 	align-items: center;
+	justify-content: space-around;
 }
 .home {
 	font: bold small-caps 18px Cambria, serif;
